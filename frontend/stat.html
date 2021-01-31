@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+        </style> 
+        <link rel="stylesheet" href="../frontend/style/stat.css">
+        <title>PONEY FRINGAN</title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load("current", {packages:["corechart"]});
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Sport', 70],
+                ['Musique', 5],
+                ['Jeux Vidéos', 24],
+                ['Informatique', 20],
+                ['Cuisine', 21],
+                ['Animaux', 2],
+                ['Lecture',  2],
+                ['Télévision', 35],
+                ['Licornes', 7],
+                ['Joaillerie',0],
+                ['Agriculture', 16],
+                ['Sorties', 48],
+                ['Aviation', 10],
+                ['Mécanique', 0],
+                ['Philatélie', 1]
+            ]);
+
+            var options = {
+                title: 'Les centres d\'intérets les plus populaires au moins populaires',
+                pieHole: 0.4,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+            }
+        </script>
+    </head>
+    <body>
+        <header class="hdr">
+            <img class="poney" src="../poney/Y4OJ5jboMyAKAMLdxai6AUo0GLQ.png">
+            <h1><span>PONEY <br> FRINGAN</span></h1>
+
+            <aside class="rech">
+                <input type="search" id="search" name="search" aria-label="Search through site content" placeholder="taper votre recherche ici">
+                <button><a href="#">OK</a></button>
+            </aside>
+            <div id="barre">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="./file1.html">Accueil</a></li>
+                        <li><a href="./membres.html">Membres</a></li>
+                        <li><a href="./stat.html">Statistiques</a></li>
+                        <li><a href="./prive.html">Privé</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="btn"><a href="#">OFF</a></button>
+        </header>
+        <main>
+                
+            <section>
+                <aside>
+                    <div class="inscription">
+                        <h2>Statistiques</h2>
+                        <h4>Les Centres D'Intérêts</h4>
+                        <h5>Graphique</h5>
+                        <div id="donutchart" style="width: 700px; height: 400px;"></div>
+                    </div>
+                    
+                </aside>
+            </section>
+        </main>
+        <footer>
+            <section class="coor">
+                <h2>ASSOCIATION<br>
+                PONEY FRINGAN</h2>
+                <p>37 Square du Farfelu<br>
+                    76980 MILIGUSME<br>
+                    Mail: <br>poney.fringan@guml.fr<br>
+                    Tél: 07.45.97.23.00.
+                </p>
+            </section>
+            <section class="map">
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11616.543546186733!2d5.3695734!3d43.290475900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1610210858140!5m2!1sfr!2sfr" 
+                    width="445" height="300" frameborder="0" style="border:5;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </p>
+            </section>
+            <section class="reseaux">
+                <ul>
+                    <li class="lkn">
+                        <img src="../Images/linkedin.gif" href="#" width="80" height="80" alt="linkedin">
+                    </li>
+                    <li class="fbk">
+                        <img src="../Images/facebook.gif" href="#" width="80" height="80" alt="Facebook">
+                    </li>
+                    <li class="itm">
+                        <img src="../Images/instagram.gif" href="#" width="80" height="80" alt="Instagram">
+                    </li>
+                    <li class="twr">
+                        <img src="../Images/twitter.png" href="#" width="80" height="80" alt="twitter">
+                    </li>
+                </ul>
+                <img src="../Images/rire.gif" href="#" width="350" height="200" alt="rire">
+            </section>
+        </footer>
+    </body>
+</html>
