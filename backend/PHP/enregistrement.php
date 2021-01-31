@@ -27,7 +27,7 @@ if( $password != $confirmation) {
     exit; 
 }
 
-// Arrivé ici, c'est que pour l'instant tout va bien (normalement)
+
 try {
     // = sql, donc pareil qu'en dessous
     // insertion des données dans la base de données
