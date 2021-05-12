@@ -10,7 +10,7 @@ body {
 }
 .hdr {
     background-color: var(--bcolor-lighten);
-    width: 1340px;
+    width: 1290px;
     height: 92px;    
 }
 .poney {
@@ -31,7 +31,7 @@ h1 {
     input {
         position: relative;
         background-color: var(--bcolor-element);
-        width: 351px;
+        width: 300px;
         height: 58px;
         margin-left: 980px; 
         top: -80px;
@@ -41,7 +41,7 @@ h1 {
         background-color: var(--bcolor-main);
         width: 45px;
         height: 45px;
-        margin-left: 1279px;
+        margin-left: 1230px;
         top: -131px;
         border-radius: 25px var(--radius-small) 50%;
         transform: rotate(-50deg);
@@ -51,7 +51,7 @@ h1 {
 #barre {
     position: relative;
     background-color: var(--bcolor-element);
-    width: 600px;
+    width: 580px;
     height: 35px;
     margin-left: 340px;
     top: -170px;
@@ -87,7 +87,7 @@ main {
         display: inline-flex;
         justify-content: center;
         width: 1335px;
-        height: 45px;
+        height: 50px;
         h2 {
             letter-spacing: 5px;
             width: auto;
@@ -123,36 +123,36 @@ main {
         background: var(--bcolor-lighten);
         border: 5px solid black;
         border-radius: var(--radius-medium);
-        width: 500px;
-        height: 500px;
-        margin-right: 50px;
+        width: 400px;
+        height: 400px;
+        margin-right: 150px;
         margin-top: 100px;
         text-shadow: 1px 1px var(--color-write-border);
         .obtenue {
             text-align: center;
         }
         input {
-            width: 150px;
+            width: 250px;
             height: 25px;
-            margin-right: -8%;
+            margin-left: 120px;
         }
-        .Nom, .Prenom, .Interets, .one, .two, .three, .Contact {
+        .Nom, .Prenom, .Interets, .Contact {
             padding-left: 5px;
         }
         .message {
             border: 2px solid var(--bcolor-darken);
             border-radius: 5px;
-            width: 490px;
             height: 34px;
             padding-left: 6px;
             padding-bottom: -15px;
         }
         .envoie {
             background:var(--bcolor-darken);
-            width: 70px;
-            height: 25px;
+            width: 90px;
+            height: 40px;
             border-radius: var(--radius-big);
-            margin-left: 180px;
+            margin-left: 155px;
+            margin-top: 60px;
         }
     }
 }
@@ -163,7 +163,7 @@ footer {
     justify-content: space-evenly;
     background-color: var(--bcolor-darken);
     box-shadow: 2px 2px solid var(--color-write-border);
-    width: 1340px;
+    width: 1290px;
     height: 350px; 
     section {
         width: calc(1340px / 3);
