@@ -1,0 +1,18 @@
+@charset "UTF-8";
+:root {
+  /* Palette de couleur */
+  --bcolor-main: #889696;
+  --bcolor-lighten:#e0e2db;
+  --bcolor-darken:#5f7470;
+  --bcolor-element: #fff;
+  --color-write-border: black;
+  --color-link-on: #77D353;
+  --color-link-off: #527AD7;
+  /* Style de police de caractère */
+  --default-font-size: 12px;
+  /* Arrondis */
+  --radius-small: 5px;
+  --radius-medium: 10px;
+  --radius-big: 20px;
+}
+/*# sourceMappingURL=variables.css.map */

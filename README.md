@@ -178,7 +178,7 @@ Assoication, annuaire interne avec l'humour en prime
 
 # Ce sur ce que je bloque
 
-    * 
+    * partie back : connexion...
 
 # Les liens
 
@@ -186,13 +186,15 @@ Assoication, annuaire interne avec l'humour en prime
     
 # Les outils utilisés
 
-    * utilisation de Svelte en framework js
+    * utilisation de js
     * utilisation de mariadb pour la bdd
-    * utilisation de PHP ? ou Laravel ?
+    * utilisation de PHP 
     * utilisation de Marvel pour les wireframes et les maquettes
-    * utilisation de chart.js pour les statistiques
+    * utilisation de Vizualisation Google Developper piechart pour les statistiques
     * utilisation HTML - CSS/Sass
     * 
 
 ***`NB`***
-Pour ce brief, c'est normal de trouver des éléments qui sont de travers... C'est un annuaire de membres sur l'humour !
+Pour ce brief, c'est normal de trouver des éléments qui sont de travers... C'est un annuaire de membres sur l'humour ! Je craque, les poneys deviennent fou !
+
+La fin du brief est très dur. Un peu plus de temps aurait été mieux. Je suis allée jusqu'au bout.
